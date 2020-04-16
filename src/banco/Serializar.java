@@ -5,16 +5,14 @@
  */
 package banco;
 
+import com.google.gson.Gson;
+import java.util.ArrayList;
+
 /**
  *
  * @author andres
  */
-public class CuentaCorriente extends Cuenta {
-    
-    public CuentaCorriente(String id, float cuenta, String nroCuenta) {
-        super(id, cuenta, nroCuenta);
-    }
-    
-    
-    
+public interface Serializar {
+    public void serializacion(ArrayList<Object> objetos);
+    public Object deserializacion();
 }

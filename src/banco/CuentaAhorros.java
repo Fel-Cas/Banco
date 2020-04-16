@@ -12,11 +12,10 @@ package banco;
 public class CuentaAhorros extends Cuenta {
     private float interes;
 
-    public CuentaAhorros(float interes, String id, float cuenta) {
-        super(id, cuenta);
+    public CuentaAhorros(float interes, String id, float cuenta, String nroCuenta) {
+        super(id, cuenta, nroCuenta);
         this.interes = interes;
     }
-    
     
     public float getInteres() {
         return interes;

@@ -10,14 +10,49 @@ package banco;
  * @author andres
  */
 public class Cuenta {
-    String id;
-    float cuenta;
-    boolean activa;
+    protected String id;
+    protected float cuenta;
+    protected boolean activa;
+    protected String nroCuenta;
 
-    public Cuenta(String id, float cuenta) {
+    public Cuenta(String id, float cuenta,String nroCuenta) {
         this.id = id;
         this.cuenta = cuenta;
         this.activa=false;
+        this.nroCuenta=nroCuenta;
+    }
+
+    public String getNroCuenta() {
+        return nroCuenta;
+    }
+
+    public void setNroCuenta(String nroCuenta) {
+        this.nroCuenta = nroCuenta;
+    }
+    
+    
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public float getCuenta() {
+        return cuenta;
+    }
+
+    public void setCuenta(float cuenta) {
+        this.cuenta = cuenta;
+    }
+
+    public boolean isActiva() {
+        return activa;
+    }
+
+    public void setActiva(boolean activa) {
+        this.activa = activa;
     }
     
     

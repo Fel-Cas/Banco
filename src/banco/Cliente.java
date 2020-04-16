@@ -10,12 +10,12 @@ package banco;
  * @author andres
  */
 public class Cliente {
-    private String id;
-    private String nombre;
-    private String celular;
-    private String direccion;
-    private String ocupacion;
-    private boolean subscripcion;
+    protected String id;
+    protected String nombre;
+    protected String celular;
+    protected String direccion;
+    protected String ocupacion;
+    protected boolean subscripcion;
 
     public Cliente(String id, String nombre, String celular, String direccion, String ocupacion, boolean subscripcion) {
         this.id = id;

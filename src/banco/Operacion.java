@@ -13,9 +13,9 @@ import java.util.Date;
  * @author andres
  */
 public class Operacion {
-    private String nombre;
-    private Date fecha;
-    private Time hora;
+    protected String nombre;
+    protected Date fecha;
+    protected Time hora;
 
     public Operacion(String nombre, Date fecha, Time hora) {
         this.nombre = nombre;
