@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="481.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banco.ControllerRegistrate">
+   <children>
+      <Label layoutX="362.0" layoutY="31.0" text="Registrar Persona" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Pane layoutX="-2.0" prefHeight="481.0" prefWidth="180.0" style="-fx-background-color: #48A5EA;" />
+      <TextField fx:id="nombrePersona" layoutX="198.0" layoutY="144.0" onKeyTyped="#soloLetras" prefHeight="33.0" prefWidth="227.0" promptText="Nombres">
+         <effect>
+            <Reflection />
+         </effect>
+      </TextField>
+      <TextField fx:id="documentoPersona" layoutX="198.0" layoutY="213.0" onKeyTyped="#soloNumeros" prefHeight="33.0" prefWidth="227.0" promptText="Documento">
+         <effect>
+            <Reflection />
+         </effect>
+      </TextField>
+      <TextField fx:id="ocupacionPersona" layoutX="198.0" layoutY="284.0" onKeyTyped="#soloLetras" prefHeight="33.0" prefWidth="227.0" promptText="Ocupacion">
+         <effect>
+            <Reflection />
+         </effect>
+      </TextField>
+      <TextField fx:id="apellidoPersona" layoutX="465.0" layoutY="144.0" onKeyTyped="#soloLetras" prefHeight="33.0" prefWidth="227.0" promptText="Apellidos">
+         <effect>
+            <Reflection />
+         </effect>
+      </TextField>
+      <TextField fx:id="numeroPersona" layoutX="465.0" layoutY="213.0" onKeyTyped="#soloNumeros" prefHeight="33.0" prefWidth="227.0" promptText="Numero Contacto">
+         <effect>
+            <Reflection />
+         </effect>
+      </TextField>
+      <Button fx:id="cancelar" layoutX="242.0" layoutY="416.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: red;" text="Cancelar" textFill="#e8e2e2">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="registrar" layoutX="568.0" layoutY="416.0" mnemonicParsing="false" onAction="#registrarPersona" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: green;" text="Registrar" textFill="#e8e2e2">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="391.0" layoutY="416.0" mnemonicParsing="false" onAction="#eliminarDatosPersona" prefHeight="33.0" prefWidth="120.0" style="-fx-background-color: blue;" text="Eliminar Datos" textFill="#e8e2e2">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Pane layoutX="198.0" layoutY="108.0" prefHeight="15.0" prefWidth="507.0" style="-fx-background-color: white;">
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Pane>
+      <Label layoutX="198.0" layoutY="79.0" text="Datos Perosnales">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="direccionPersona" layoutX="465.0" layoutY="284.0" prefHeight="33.0" prefWidth="227.0" promptText="Direccion">
+         <effect>
+            <Reflection />
+         </effect>
+      </TextField>
+   </children>
+</AnchorPane>

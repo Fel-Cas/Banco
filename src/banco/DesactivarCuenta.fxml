@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banco.ControllerAsociacionBanco">
+   <children>
+      <Label layoutX="164.0" layoutY="36.0" text="Desactivar Cuenta">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="127.0" text="Codigo de cuenta">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="codigoCuenta" layoutX="258.0" layoutY="120.0" prefHeight="33.0" prefWidth="201.0" style="-fx-border-color: gold;" />
+      <Label layoutX="103.0" layoutY="176.0" text="Tipo de Cuenta">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="tiposCuentas" layoutX="258.0" layoutY="173.0" prefHeight="25.0" prefWidth="201.0" />
+      <Label layoutX="103.0" layoutY="224.0" text="Contraseña">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="contrasena" layoutX="258.0" layoutY="208.0" prefHeight="33.0" prefWidth="201.0" style="-fx-border-color: gold;" />
+      <Button fx:id="desactivar" layoutX="370.0" layoutY="325.0" mnemonicParsing="false" onAction="#desactivarCuenta" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: green;" text="Desactivar" textFill="WHITE" />
+      <Button fx:id="cancelar" layoutX="113.0" layoutY="325.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: red;" text="Cancelar" textFill="WHITE" />
+   </children>
+</AnchorPane>

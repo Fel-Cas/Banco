@@ -3,17 +3,31 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/Cliente.java</file>
-            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/Operacion.java</file>
-            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/Retiro.java</file>
-            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/DesactivarCuenta.java</file>
-            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/Sucursal.java</file>
-            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/Cajero.java</file>
-            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/Cuenta.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/Retirar.fxml</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/Banco/Sucursal.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/ControllerOperacionesCuenta.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/Manejo/AdministracionCompanias.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/Cuentas/Cuenta.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/Cuentas/CuentaAhorros.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/ControllerRegistrate.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/CrearCuenta.fxml</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/ControllerOpciones.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/Clientes/PersonaNatural.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/Seriallizar/SerializarClientes.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/Bienvenida.fxml</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/Seriallizar/SerializarCuentaAhorros.java</file>
             <file>file:/home/andres/NetBeansProjects/Banco/src/banco/Banco.java</file>
-            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/PersonaNatural.java</file>
-            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/CuentaCorriente.java</file>
-            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/CuentaAhorros.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/Clientes/Cliente.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/Clientes/Compania.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/Opciones.fxml</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/Consignar.fxml</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/Manejo/AdministracionClientes.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/Banco/Cajero.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/ControllerAsociacionBanco.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/Manejo/FachadaClientes.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/ControllerCrearCuenta.java</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/ActivarCuenta.fxml</file>
+            <file>file:/home/andres/NetBeansProjects/Banco/src/banco/DesactivarCuenta.fxml</file>
         </group>
     </open-files>
 </project-private>

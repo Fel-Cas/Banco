@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banco.ControllerOperacionesCuenta">
+   <children>
+      <Label layoutX="210.0" layoutY="50.0" text="RETIRO ">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="142.0" text="Codigo de cuenta">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="236.0" text="Cantidad a retirar">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="retirar" layoutX="135.0" layoutY="337.0" mnemonicParsing="false" onAction="#retirar" prefHeight="33.0" prefWidth="106.0" style="-fx-background-color: green;" text="Retirar" textFill="#fcfafa" />
+      <Button fx:id="cancelar" layoutX="352.0" layoutY="337.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="33.0" prefWidth="106.0" style="-fx-background-color: red;" text="Cancelar" textFill="#fcfafa" />
+      <TextField fx:id="codigoCuenta" layoutX="233.0" layoutY="135.0" prefHeight="33.0" prefWidth="201.0" style="-fx-border-color: gold;" />
+      <TextField fx:id="cantidadRetiro" layoutX="232.0" layoutY="226.0" onKeyTyped="#soloNumeros" prefHeight="33.0" prefWidth="201.0" style="-fx-border-color: gold;" />
+      <Label layoutX="78.0" layoutY="191.0" text="Tipo de Cuenta">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="tiposCuenta" layoutX="233.0" layoutY="188.0" prefHeight="25.0" prefWidth="201.0" />
+      <Label layoutX="70.0" layoutY="284.0" text="Contraseña">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="contrasena" layoutX="232.0" layoutY="273.0" prefHeight="33.0" prefWidth="201.0" style="-fx-border-color: gold;" />
+        
+   </children>
+</AnchorPane>
